@@ -79,3 +79,15 @@ In this dashboard:
 ---
 
 ## Project Structure
+
+
+---
+
+## Installation
+
+### Create a virtual environment (recommended)
+
+**Windows (PowerShell):**
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
