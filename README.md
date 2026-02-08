@@ -91,3 +91,16 @@ In this dashboard:
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the app
+```bash
+streamlit run VRPDasboard.py
+```
+
