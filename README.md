@@ -1,3 +1,25 @@
+# S&P 500 Volatility Risk Premium (VRP) Dashboard (Streamlit)
+
+A Streamlit dashboard that computes and visualizes the **Volatility Risk Premium (VRP)** for the S&P 500 using:
+
+- **Implied volatility:** VIX (annualized %)
+- **Realized volatility:** Yang–Zhang estimator from OHLC prices (annualized %)
+- **VRP:** `Implied Vol − Realized Vol` (in **percentage points**)
+
+The app is robust to Yahoo Finance data issues, automatically switching between **^GSPC (index)** and **SPY (ETF)** when OHLC data is missing, and includes trading signals, cross-asset VRP comparison, a simple backtest, and macro correlations.
+
+---
+
+## What Is the Volatility Risk Premium (VRP)?
+
+The **Volatility Risk Premium (VRP)** measures the difference between:
+
+- **Implied volatility** – the market’s *expected* future volatility, inferred from option prices (e.g. the VIX), and  
+- **Realized volatility** – the *actual* volatility that materializes in the underlying asset over time.
+
+Formally:
+
+VRP = Implied Volatility − Realized Volatility
 
 ### Intuition
 - Options typically **price in a premium** because sellers demand compensation for bearing volatility risk.
