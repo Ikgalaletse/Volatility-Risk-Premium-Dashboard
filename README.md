@@ -104,3 +104,4 @@ pip install -r requirements.txt
 streamlit run VRPDasboard.py
 ```
 
+**Disclaimer:** This dashboard is for educational and research purposes only and does not constitute financial or investment advice.
